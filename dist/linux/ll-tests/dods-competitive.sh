@@ -165,8 +165,8 @@ should_have 'Server is hibernating' 'srcds_run succesfully hibernated';
 
 # Verify sending commands works
 should_echo "sv_cheats" '"sv_cheats" = "0"';
-# should_echo "meta version" 'Metamod:Source Version Information';
-# should_echo "sm version" 'SourceMod Version Information'
+should_echo "meta version" 'Metamod:Source version';
+should_echo "sm version" 'SourceMod Version Information'
 #####################################################################################################
 #####################################################################################################
 
