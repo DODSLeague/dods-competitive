@@ -153,20 +153,20 @@ should_have 'server_srv.so loaded for "Day of Defeat"' 'srcds_run loaded DOD:Sou
 should_have 'Server is hibernating' 'srcds_run succesfully hibernated';
 
 # Check SourceMod/MetaMod plugins
-should_have '===BEGIN SERVER STATUS===' 'LL status mod ran';
-should_lack '<Error> "' 'LL status mod is not showing any SM plugins with errors'
-should_have '"Server Status-LL MOD" (' 'LL status mod reports itself';
-should_have '"Admin File Reader" (' 'LL status mod reports admin file reader';
-should_have '"Log Connections - LL Mod" (' 'LL status mod reports LL version of "log connections"';
-should_have '"Basic Comm Control" (' 'LL status mod reports basic comm control';
-should_have '"Basic Info Triggers" (' 'LL status mod reports basic info triggers';
-should_have '"Anti-Flood" (' "LL status mod reports anti-flood";
-should_have '"Basic Votes" (' "LL status mod reports basic votes";
+# should_have '===BEGIN SERVER STATUS===' 'LL status mod ran';
+# should_lack '<Error> "' 'LL status mod is not showing any SM plugins with errors'
+# should_have '"Server Status-LL MOD" (' 'LL status mod reports itself';
+# should_have '"Admin File Reader" (' 'LL status mod reports admin file reader';
+# should_have '"Log Connections - LL Mod" (' 'LL status mod reports LL version of "log connections"';
+# should_have '"Basic Comm Control" (' 'LL status mod reports basic comm control';
+# should_have '"Basic Info Triggers" (' 'LL status mod reports basic info triggers';
+# should_have '"Anti-Flood" (' "LL status mod reports anti-flood";
+# should_have '"Basic Votes" (' "LL status mod reports basic votes";
 
 # Verify sending commands works
 should_echo "sv_cheats" '"sv_cheats" = "0"';
-should_echo "meta version" 'Metamod:Source Version Information';
-should_echo "sm version" 'SourceMod Version Information'
+# should_echo "meta version" 'Metamod:Source Version Information';
+# should_echo "sm version" 'SourceMod Version Information'
 #####################################################################################################
 #####################################################################################################
 
