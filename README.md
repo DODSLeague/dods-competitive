@@ -25,3 +25,4 @@ docker run -it --rm dodsleague/dods-competitive ./ll-tests/dods-competitive.sh;
 ```shell
 docker run -it --rm --net=host dodsleague/dods-competitive ./srcds_run -game dod +map dod_avalanche +sv_lan 1
 ```
+
