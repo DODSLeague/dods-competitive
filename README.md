@@ -4,7 +4,7 @@ This repository is based on the work of [Laclede's LANs](https://lacledeslan.com
 
 ## Linux Container
 
-[![linux/amd64](https://github.com/DODSLeague/dods-competitive/actions/workflows/build-linux-image.yml/badge.svg?branch=master)](https://github.com/DODSLeague/dods-competitive/actions/workflows/build-linux-image.yml)
+[![linux/amd64](https://github.com/DODSLeague/dods-competitive/actions/workflows/build-linux-image.yml/badge.svg?branch=main)](https://github.com/DODSLeague/dods-competitive/actions/workflows/build-linux-image.yml)
 
 ### Download
 

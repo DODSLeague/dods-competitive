@@ -6,7 +6,7 @@ ARG MMVERSIOM=1.10
 WORKDIR /dl
 
 RUN apt-get update && apt-get install -y `
-    wget gcc-4.9-multilib g++-4.9-multilib unzip &&`
+    wget gcc-multilib g++-multilib unzip &&`
     apt-get clean &&`
     rm -rf /tmp/* /var/lib/apt/lists/* /var/tmp/*;
 
