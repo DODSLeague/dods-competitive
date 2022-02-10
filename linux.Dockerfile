@@ -36,6 +36,7 @@ COPY --chown=DODS:root --from=builder /dl/mm /app/dod
 #COPY --chown=DODS:root /sourcemod-configs /app/dod
 
 COPY --chown=DODS:root /dist /app
+RUN rm -rf /app/bin/libstdc++.so.6
 
 COPY --chown=DODS:root /dist/linux/ll-tests /app/ll-tests
 
